@@ -9,12 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var myGifview: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        //myGifview.loadGif(name: "123456")
+        
     }
-
+    @IBAction func tobecontinue(_ sender: UIButton) {
+    }
+    
 
 }
 
